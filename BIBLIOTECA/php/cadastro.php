@@ -7,6 +7,7 @@ include('../api/api_cad.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imgs/favicon.png" type="image/x-icon">
     <title>Cadastro de Usuário</title>
     <link rel="stylesheet" href="../css/cad.css">
 </head>
@@ -58,6 +59,9 @@ include('../api/api_cad.php');
         }
         ?>
     </div>
+    <?php  
+include('../php/footer.php');
+?>
 </body>
 
 </html>

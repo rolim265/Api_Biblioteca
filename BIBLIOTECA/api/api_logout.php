@@ -6,7 +6,7 @@ if (isset($_SESSION['id_usuario'])) {
     session_destroy();
 
     echo json_encode(["message" => "Logout realizado com sucesso"]);
-    header('Location: ../php/login.php');
+    header('Location: ../home.html');
 } else {
     echo json_encode(["message" => "Nenhum usuário logado"]);
 }

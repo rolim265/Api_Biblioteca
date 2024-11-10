@@ -34,7 +34,7 @@ if (isset($_POST['nome'], $_POST['email'], $_POST['senha'], $_POST['endereco'], 
         if ($conn->query($query)) {
             echo "Cadastro realizado com sucesso!";
             // Redirecionar para outra página, se necessário
-            // header('Location: login.php');
+            header('Location: ../php/login.php');
             // exit();
         } else {
             echo "Erro ao cadastrar usuário: " . $conn->error;

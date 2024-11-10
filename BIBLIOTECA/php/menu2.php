@@ -19,7 +19,8 @@
         <li title="about"><a href="../php/perfil.php" class="active about">Profile</a></li>
         <li title="archive"><a href="#" class="archive">Archive</a></li>
         <li title="contact"><a href="#" class="contact">Contact</a></li>
-        <li title="contact"><a href="../api/api_logout.php" class="contact">Contact</a></li>
+        <li title="Sair"><a class="fa fa-sign-out" href="../api/api_logout.php"> Sair</a></li>
+
     </ul>
 
  

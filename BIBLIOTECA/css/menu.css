@@ -85,6 +85,15 @@
     color: #fff;    
     line-height:5
 }
+.ok i {
+  margin-right: 5px;
+  color: #72739f; /* Ajuste para a cor desejada */
+}
+
+.ok:hover i {
+  color: #267fdd; /* Cor ao passar o mouse */
+}
+
 
 
 .para{

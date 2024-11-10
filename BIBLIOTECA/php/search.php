@@ -10,6 +10,7 @@ include('../api/api_search.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Pesquisa</title>
+    <link rel="icon" href="../imgs/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/search.css">
 
 </head>
@@ -100,6 +101,9 @@ include('../api/api_search.php');
             ?>
         </div>
     </div>
+    <?php  
+include('../php/footer.php');
+?>
 </body>
 
 </html>

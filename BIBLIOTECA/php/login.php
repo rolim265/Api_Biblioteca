@@ -2,6 +2,7 @@
 include('../api/api_log.php');
 ?>
 <link rel="stylesheet" href="../css/log.css">
+<link rel="icon" href="../imgs/favicon.png" type="image/x-icon">
 <div class="login-card">
 <form action="login.php" method="POST">
     <div class="input-group">
@@ -18,3 +19,6 @@ include('../api/api_log.php');
 </form>
 
 </div>
+<?php  
+include('../php/footer.php');
+?>

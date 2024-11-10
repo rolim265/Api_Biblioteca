@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imgs/favicon.png" type="image/x-icon">
     <title>Tela de Recomendações</title>
     <link rel="stylesheet" href="../css/catalago.css">
 </head>
@@ -82,7 +83,7 @@
                 Ano: {$livro['ano_publicacao']}</div>
                 <div class='buttons'>
                    <button class='button-view'><a href='{$livro['url_ebook']}' target='_blank' style='color: white; text-decoration: none;'>LER AGORA</a></button>
-                    <button class='button-schedule'>AGENDAR</button>
+                   
                 </div>
             </div>";
                 }
@@ -93,7 +94,28 @@
         ?>
 
     </div>
+    <!-- <script>
+        //<button class='button-schedule' onclick='agendarLivro({$livro['id_livro']})'>AGENDAR</button>
+        function agendarLivro(idLivro) {
+            var userId = 1; // Substitua pelo ID real do usuário logado      
 
+            fetch('../api/api_reservar_livro.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    },
+                    body: `id_livro=${idLivro}&id_usuario=${userId}`
+                })
+                .then(response => response.text())
+                .then(data => alert(data))
+                .catch(error => alert("Erro ao agendar o livro."));
+        }
+    </script> -->
+
+
+    <?php
+    include('../php/footer.php');
+    ?>
 </body>
 
 </html>

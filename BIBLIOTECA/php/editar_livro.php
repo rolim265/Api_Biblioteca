@@ -42,6 +42,7 @@ include('../api/api_editar_livro.php');
     }
 </script>
 <link rel="stylesheet" href="../css/editar_livro.css">
+<link rel="icon" href="../imgs/favicon.png" type="image/x-icon">
 <form method="POST" action="">
     <label for="titulo">Título:</label>
     <input type="text" name="titulo" value="<?php echo $livro['titulo']; ?>" required><br>
@@ -66,3 +67,8 @@ include('../api/api_editar_livro.php');
 
     <button type="submit">Atualizar Livro</button>
 </form>
+
+
+<?php  
+include('../php/footer.php');
+?>

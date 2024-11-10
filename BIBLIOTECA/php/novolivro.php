@@ -2,6 +2,7 @@
 include('../api/api_newlivro.php');
 ?>
 <link rel="stylesheet" href="../css/novolivro.css">
+<link rel="icon" href="../imgs/favicon.png" type="image/x-icon">
 
 <div id="menu-container"></div>
 <script>
@@ -74,3 +75,7 @@ include('../api/api_newlivro.php');
 
     <button type="submit">Adicionar Livro</button>
 </form>
+
+<?php  
+include('../php/footer.php');
+?>
