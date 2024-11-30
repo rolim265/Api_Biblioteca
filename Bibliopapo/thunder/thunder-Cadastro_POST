@@ -1,0 +1,20 @@
+var client = new HttpClient();
+var request = new HttpRequestMessage();
+request.RequestUri = new Uri("https://localhost/Bibliopapo/api/api_cad.php");
+request.Method = HttpMethod.Post;
+
+request.Headers.Add("Accept", "*/*");
+request.Headers.Add("User-Agent", "Thunder Client (https://www.thunderclient.com)");
+
+var formList = new List<KeyValuePair<string, string>>();
+formList.Add(new KeyValuePair<string, string>("nome", "João"));
+formList.Add(new KeyValuePair<string, string>("email", "joao@example.com"));
+formList.Add(new KeyValuePair<string, string>("senha", "123456"));
+formList.Add(new KeyValuePair<string, string>("endereco", "Rua 123, Centro"));
+formList.Add(new KeyValuePair<string, string>("telefone", "999999999"));
+formList.Add(new KeyValuePair<string, string>("tipo_usuario", "admin"));
+request.Content = new FormUrlEncodedContent(formList);
+
+var response = await client.SendAsync(request);
+var result = await response.Content.ReadAsStringAsync();
+Console.WriteLine(result);

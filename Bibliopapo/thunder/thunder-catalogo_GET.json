@@ -1,0 +1,46 @@
+[
+  {
+    "id_livro": "3",
+    "capa_livro": "https://m.media-amazon.com/images/I/71mWm5Oq7cL.jpg",
+    "titulo": "As Armas da Persuasão",
+    "autor": "Robert B. Cialdini",
+    "quantidade_fisico": "0",
+    "url_ebook": "https://drive.google.com/file/d/17gBaCQMREg5gViaL2fDu6-UGZmNvZObf/view?usp=sharing",
+    "tipo_livro": "ebook",
+    "editora": "Sextante",
+    "ano_publicacao": "1984"
+  },
+  {
+    "id_livro": "9",
+    "capa_livro": "https://m.media-amazon.com/images/I/617iS--XOQL._AC_UF1000,1000_QL80_.jpg",
+    "titulo": "48 Leis Do Poder",
+    "autor": "Robert Greene",
+    "quantidade_fisico": "0",
+    "url_ebook": "https://drive.google.com/file/d/14BpT6_rHs-IV-0lczhMjyregCMRWYi0Z/view?usp=sharing",
+    "tipo_livro": "ebook",
+    "editora": "Viking Press",
+    "ano_publicacao": "1998"
+  },
+  {
+    "id_livro": "10",
+    "capa_livro": "https://m.media-amazon.com/images/I/61rQikkGR9L._AC_UF1000,1000_QL80_.jpg",
+    "titulo": "A Arte da Sedução",
+    "autor": "Robert Greene",
+    "quantidade_fisico": "0",
+    "url_ebook": "https://drive.google.com/file/d/1igJzpBwZLhZLwScL0flfzktOpcvzFALD/view?usp=sharing",
+    "tipo_livro": "ebook",
+    "editora": "Viking Press",
+    "ano_publicacao": "2001"
+  },
+  {
+    "id_livro": "11",
+    "capa_livro": "https://m.media-amazon.com/images/I/819ERrDHRcL._AC_UF1000,1000_QL80_.jpg",
+    "titulo": "+ Esperto que o Diabo",
+    "autor": "Napoleon Hill",
+    "quantidade_fisico": "1",
+    "url_ebook": "https://drive.google.com/file/d/1DIkl5CqsjGf_xhGbNFVp4Iv44Ohd2u9I/view?usp=sharing",
+    "tipo_livro": "ebook",
+    "editora": "Citadel",
+    "ano_publicacao": "2011"
+  }
+]

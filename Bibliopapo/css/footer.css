@@ -1,0 +1,49 @@
+/* Definições gerais do layout */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Corpo da página */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Isso faz o conteúdo ocupar a altura total da tela */
+  }
+  
+  /* Estilo do footer */
+  footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 100%; /* Isso garante que o footer ocupe toda a largura */
+    margin-top: auto; /* Isso mantém o footer na parte inferior */
+    box-sizing: border-box; /* Garantir que o padding não afete o tamanho total */
+  }
+  
+  .footer-content {
+    margin-bottom: 15px;
+  }
+  
+  .description,
+  .support {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  footer strong {
+    color: #ff6600; /* Destaque no Pix */
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
